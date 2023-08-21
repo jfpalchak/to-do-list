@@ -15,3 +15,17 @@ Test 3: "It should return an isDone property with a value of false assuming the 
 Code:
     let task = new Task("help me");
 Expected Output: Task {task: "help me", isDone: false}
+
+Describe: Task.prototype.isComplete()
+
+Test 1: "It should return the value of the task's completion status, which is initially false."
+Code:
+    let task = new Task("help me");
+    task.isComplete();
+Expected Output: false
+
+Test 2: "It should set the task's completion status to true, and return the new value."
+Code:
+    let task = new Task("help me");
+    task.isComplete();
+Expected Output: true
