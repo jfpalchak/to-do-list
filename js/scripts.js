@@ -4,5 +4,6 @@ function Task(task) {
 }
 
 Task.prototype.isComplete = function() {
+    this.isDone = true;
     return this.isDone;
 }
