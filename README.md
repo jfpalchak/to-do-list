@@ -9,4 +9,4 @@ Test 1: "It should return a task when called"
 Code:
     Tasks()
     let task = new Task("help me");
-Expected Output: Task {task: {"help me"}}
+Expected Output: Task {task: "help me"}
