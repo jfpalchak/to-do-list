@@ -29,3 +29,11 @@ Code:
     let task = new Task("help me");
     task.isComplete();
 Expected Output: true
+
+Describe: List()
+Test 1: "It creates an empty unordered list."
+Code:
+    let task = new Task("help me");
+    List();
+Expected Output: {}
+
